@@ -2,7 +2,6 @@ import styles from "./ProjectsStyles.module.css";
 import ProjectsCard from "../../common/ProjectCard";
 import questionAndAnswer from "../../assets/question-and-answer.png";
 import worldwise from "../../assets/worldwise.png";
-import reactLogo from "../../assets/react-logo.png";
 import popcorn from "../../assets/popcorn.png";
 
 function Projects() {
@@ -21,12 +20,6 @@ function Projects() {
           link="https://github.com/Joel-Persson1/worldwise"
           h3="Worldwise"
           p="Explore the World"
-        />
-        <ProjectsCard
-          src={reactLogo}
-          link="https://github.com/Joel-Persson1/fast-react-pizza"
-          h3="Fast-React-Pizza"
-          p="Pizza ordering system"
         />
         <ProjectsCard
           src={popcorn}
