@@ -57,7 +57,7 @@ function Hero() {
         </p>
 
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Resumé</button>
         </a>
       </div>
     </section>
