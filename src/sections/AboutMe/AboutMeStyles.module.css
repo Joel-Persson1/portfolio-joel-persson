@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.textContainer {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+}
+
+@media (width >= 800px) {
+  .textContainer {
+    max-width: 500px;
+  }
+}
+
+@media (width >= 1400px) {
+  .textContainer {
+    max-width: 800px;
+    gap: 44px;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
