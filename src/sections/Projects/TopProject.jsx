@@ -1,6 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import ProjectsCard from "../../common/ProjectCard";
 import reactLogo from "../../assets/react-logo.png";
+import oasisLogo from "../../assets/the-wild-oasis-logo.png";
 
 function TopProject() {
   return (
@@ -12,6 +13,12 @@ function TopProject() {
           link="https://joel-persson1.github.io/fast-react-pizza/"
           h3="Fast-React-Pizza"
           p="Pizza ordering system"
+        />
+        <ProjectsCard
+          src={oasisLogo}
+          link="https://the-wild-oasis-bqn2.vercel.app/"
+          h3="The Wild Oasis"
+          p="Hotel management application"
         />
       </div>
     </section>

@@ -37,6 +37,7 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Redux" />
         <SkillList src={checkMarkIcon} skill="React Router" />
+        <SkillList src={checkMarkIcon} skill="React Query" />
       </div>
     </section>
   );
